@@ -44,13 +44,13 @@ global.pdana = '085798048936' //dana
 global.povo = '085798048936' //ovo
 global.pgopay = '085798048936' //gopay
 global.plinkaja = '085798048936' //link aja
-global.ppulsa = '085798048936' //telkomsel
+global.ppulsa = '083867102010' //telkomsel
 global.ppulsa2 = '085798048936' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6283867102010'
-global.nomorown = '6285798048939'
+global.nomorown = '6285798048936'
 global.namebot = 'FR BOT MD'
 global.nameown = 'RAMDAN / HIDEO'
 
