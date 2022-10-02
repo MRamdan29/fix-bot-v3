@@ -55,7 +55,7 @@ global.namebot = 'FR BOT MD'
 global.nameown = 'RAMDAN / HIDEO'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'ramdan_we // nama github lu
+global.namagithub = 'ramdan_we' // nama github lu
 global.linkgithub = 'https://github.com' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
@@ -67,8 +67,8 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283867102010', 'WH MODS DEV', true],
-  ['-', 'ISI KALAU ADA', true],
+  ['6285798048936', 'WH MODS DEV', true],
+  ['6283870638644', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
@@ -76,7 +76,7 @@ global.owner = [
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
-global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
+global.prems = ['] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
 /*============== API ==============*/
@@ -121,13 +121,13 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '                「 WH-MODS-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘WH-MODS-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ WH-MODS-BOT-V1 '
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘FR-BOT-MD-V2 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ FR-BOT-MD-V2'
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By RAMDAN`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 WH-MODS-BOT-V1  あ」'
+global.author = '                「 FR-BOT-MD-V2 あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
