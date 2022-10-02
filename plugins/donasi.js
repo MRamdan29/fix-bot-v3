@@ -6,7 +6,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 let str = `${global.wm}
 
 ┌─「 Donasi • Pulsa 」
-│ • *Telkomsel:* [${global.ppulsa}]
+│ • *AXIS:* [${global.ppulsa}]
 ❏────
 
 ┌─「 Donasi • Non Pulsa 」
@@ -20,8 +20,8 @@ let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Sewa Bot','.sewa', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/_ctzhid",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://www.instagram.com/p/Cb91yKIr9K5/?igshid=YmMyMTA2M2Y=", 
+    title: 'FR-BOT-MD-V2 MultiDevice',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig
