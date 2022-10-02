@@ -300,7 +300,7 @@ const sections = [
         {title: `🐚 ${pmenus} Kerang`, rowId: ".? kerangajaib", description: "Tanyakan pada ketua club"},
         {title: `📑 ${pmenus} Quotes`, rowId: ".? quotes", description: "Random Inspirasi"},
         {title: `⛩️ ${pmenus} Anime`, rowId: ".? anime", description: "Kamu wibu ya bang?"},
-        {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, Fitur 18+"},
+        {title: `🔞 ${pmenus} Nsfw`, rowId: ".? nsfw", description: "Tch, menu 18+"},
         {title: `🌟 ${pmenus} Premium`, rowId: ".? premium", description: "Only premium Users"},
         {title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
         {title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
@@ -324,32 +324,32 @@ const sections = [
         },
 ]
 
-let tek = `✧────···[ DASHBOARD ]···────✧
+let tek = `✧────···[ Dashboard ]···────✧
 *${ucapan()} ${conn.getName(m.sender)}*
 ╭━━━━━━━━━━━━━━━━┈─✧
 ┴
 ┬
-│${emot} 「 HAI KAK 👋 」
+│${emot} 「 Hai Kak👋 」
 ├❖ 「 ${conn.getName(m.sender)} 」
-├❖  Bagaimana Harimu? 🔥
+├❖  Bagaimana Harimu? 😄
 ├❖  Terima Kasih Telah Menggunakan Bot Kami
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
-│  「 *U S E R  I N F O 🔥* 」
+│  「 *U s e r  I n f o 克* 」
 │${emot} *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
 │${emot} *ᴛᴀɢs:* @${m.sender.split`@`[0]}
 │${emot} *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
 │${emot} *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
-│  「 *S T A T U S  I N F O 🔥* 」
+│  「 *S t a t u s  I n f o 比* 」
 │${emot} *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 │${emot} *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 │${emot} *ʟɪᴍɪᴛ:* ${usrs.limit}
 │${emot} *ʟᴇᴠᴇʟ:* ${usrs.level}
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
-│  「 *I N F O. B O T 🔥* 」
+│  「 *I n f o   B o t 比* 」
 │${emot} Aktif selama ${mpt}
 │${emot} Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │${emot} Prefix : [ ${_p} ]
@@ -359,11 +359,12 @@ let tek = `✧────···[ DASHBOARD ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │
+│ ▸ *Sumber :* YouTube WH-MODS-DEV
 │ ▸ *ᴀᴜᴛʜᴏʀ :* ${nameown}
 ┴ ▸ *ᴏᴡɴᴇʀ :* ${nameown}
 ✧
-┬ 📌 *CATATAN* :
-│ KASIH BOT NYA JEDA KAK ^^ JANGAN DI SPAM !!
+┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
+│ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │${emot} *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
@@ -375,7 +376,7 @@ const listMessage = {
   footer: `📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤ ʙʏ ${nameown}\n\n${botdate}\n\n${wm2}`,
   mentions: await conn.parseMention(tek),
   title: ``,
-  buttonText: `KLIK DISINI ⎙`, 
+  buttonText: `CLICK HERE ⎙`, 
   sections
 }
   if (teks == '404') {
@@ -629,7 +630,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com"
+                        url: 'https://github.com/Mramdan29/'
                     }
                 },
                 {
