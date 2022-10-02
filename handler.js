@@ -1304,11 +1304,11 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}
   })*/
-  let welcom = 'https://telegra.ph/file/aab124271570c51f76aac.jpg'
+  let welcom = 'https://telegra.ph/file/b8b8b4101d3676f97bda0.jpg'
 
-  let godbye = 'https://telegra.ph/file/deaf59bc3e5216eaae814.jpg'
-  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://www.instagram.com/_ctzhid/',
+  let godbye = 'https://telegra.ph/file/5e856956b5602001c12f3.jpg'
+  conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'FR-BOT-MD', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'https://www.instagram.com/ramdan_we',
     mediaType: 2, 
     description: sgc,
     title: "Jᴏɪɴ Sɪɴɪ Cᴜʏ",
